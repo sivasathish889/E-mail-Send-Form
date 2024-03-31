@@ -1,0 +1,54 @@
+body {
+    background-image: url(./img.jpg);
+
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.content {
+    padding: 50px;
+    background: rgb(28, 28, 113);
+    background: linear-gradient(232deg, rgba(28, 28, 113, 1) 0%, rgba(67, 0, 90, 1) 100%);
+    backdrop-filter: blur(10px);
+
+}
+hr{
+    width: 50%;
+    border: 2px solid;
+    border-radius: 50px;
+    background-color: rgba(67, 0, 90, 1);
+}
+input {
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid rgb(170, 159, 159);
+    border-radius: 50px;
+    padding: 8px;
+    outline: none;
+    margin-bottom: 20px;
+    color: white;
+}
+
+textarea {
+    background-color: transparent;
+    color: white;
+}
+
+button {
+    border-radius: 50px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    padding: 3px 20px;
+    margin-top: 20px;
+   
+}
+
+.title {
+    color: rgb(165, 55, 149);
+}
